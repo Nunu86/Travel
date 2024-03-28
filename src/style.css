@@ -51,7 +51,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  aspect-ratio: 21/9;
+  aspect-ratio: 16/9;
 }
 .container {
   margin: auto;
@@ -61,6 +61,9 @@ h2 {
   grid-template-columns: 1fr 1fr;
   column-gap: 50px;
   margin: 80px;
+}
+.london-photo {
+  aspect-ratio: 3/3;
 }
 h4 {
   font-weight: 700;
@@ -108,4 +111,7 @@ p {
   margin: auto;
   margin-top: 90px;
   background: #f8f8f8;
+}
+.background-colour {
+  background: white;
 }
