@@ -65,7 +65,7 @@ h2 {
   margin: 80px;
 }
 .london-photo {
-  aspect-ratio: 3/3;
+  aspect-ratio: 1/1;
 }
 h4 {
   font-weight: 700;
@@ -78,7 +78,7 @@ h4 {
   text-align: center;
 }
 .restaurants {
-  margin-top: 150px;
+  margin-top: 90px;
   text-align: center;
 }
 h5 {
@@ -87,6 +87,7 @@ h5 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
+  text-align: center;
 }
 .reasons {
   font-weight: 700;
@@ -120,9 +121,12 @@ p {
   margin-top: 50px;
 }
 .margin-container {
-  margin-top: 90px;
   background: #f8f8f8;
 }
+.restaurants {
+  padding-top: 60px;
+}
+
 .background-colour {
   background: white;
   margin-bottom: 80px;
@@ -147,11 +151,13 @@ p {
 }
 
 .footer-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/images/london-footer.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(/images/London-footer-image.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 60px;
 }
 .footer-text {
   color: white;
@@ -175,4 +181,43 @@ p {
   grid-template-columns: 1fr 2fr 2fr;
   padding: 50px;
   column-gap: 20px;
+}
+.third-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 39px;
+  margin: 50px 35px;
+}
+.gallery {
+  display: block;
+  width: 100%;
+}
+.top-margin {
+  margin-top: 80px;
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 40px;
+  }
+  .row1 {
+    grid-template-columns: 1fr;
+  }
+  .second-row {
+    grid-template-columns: 1fr;
+  }
+  .third-row {
+    grid-template-columns: 1fr;
+  }
+  .row-one {
+    grid-template-columns: 1fr;
+  }
+
+  .col2 {
+    text-align: center;
+  }
+  .footer-text {
+    font-size: 12px;
+    font-weight: 200px;
+  }
 }
