@@ -43,7 +43,7 @@ h2 {
   margin: auto;
   margin-top: 50px;
   padding: 16px 32px;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 .hero-image {
   background-image: url(/images/london-photo-427679.jpeg);
@@ -55,6 +55,8 @@ h2 {
 }
 .container {
   margin: auto;
+  border: 10px solid #272044;
+  border-radius: 4px;
 }
 .row1 {
   display: grid;
@@ -74,6 +76,16 @@ h4 {
   opacity: 0.3;
   font-family: poppins;
   text-align: center;
+}
+.restaurants {
+  margin-top: 150px;
+  text-align: center;
+}
+h5 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
   margin: 0;
 }
 .reasons {
@@ -108,10 +120,59 @@ p {
   margin-top: 50px;
 }
 .margin-container {
-  margin: auto;
   margin-top: 90px;
   background: #f8f8f8;
 }
 .background-colour {
   background: white;
+  margin-bottom: 80px;
+}
+.background-margin {
+  margin: 25px 32px;
+}
+.bt {
+  display: block;
+  margin: auto;
+  background: blue;
+  padding: 16px 72px;
+  margin-top: 60px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.restaurant-container {
+  margin: 90px 50px;
+}
+
+.footer-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/london-footer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-text {
+  color: white;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+  margin-top: 25px;
+}
+.info {
+  color: white;
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+.row-one {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: 50px;
+  column-gap: 20px;
 }
