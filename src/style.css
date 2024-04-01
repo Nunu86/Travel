@@ -65,6 +65,9 @@ h2 {
   margin: 80px;
 }
 .london-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
   aspect-ratio: 1/1;
 }
 h4 {
@@ -188,10 +191,7 @@ p {
   column-gap: 39px;
   margin: 50px 35px;
 }
-.gallery {
-  display: block;
-  width: 100%;
-}
+
 .top-margin {
   margin-top: 80px;
 }
@@ -219,5 +219,19 @@ p {
   .footer-text {
     font-size: 12px;
     font-weight: 200px;
+  }
+  .insta {
+    display: block;
+    margin: auto !important;
+    width: 40px !important;
+  }
+  .about-me {
+    margin-top: 50px;
+  }
+  .about-website {
+    margin-top: 50px;
+  }
+  .info {
+    margin-top: 50px;
   }
 }
